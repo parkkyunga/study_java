@@ -10,6 +10,7 @@ public class Exam {
 		int second;
 		int third;
 		int max;
+		int min;
 		
 		System.out.println("데이터입력1");
 		first = sc.nextInt();
@@ -19,15 +20,22 @@ public class Exam {
 		third = sc.nextInt();
 		
 		max= first;
-		
 		if(second<max) {
 			max = second;
 		}
 		if(max < third) {
 			max = third;
 		}
-		System.out.println(max);
+		System.out.println("최대값"+max);
 		
+		min=first;
+		if(second < min) {
+			min = second;
+		}
+		if(min > third) {
+			min = third;
+		}
+		System.out.println("최소값"+min);
 		
 		//2.두 주사위를 던졌을때 합이 6인데이터출력 
 		
