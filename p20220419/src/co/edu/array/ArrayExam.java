@@ -25,7 +25,7 @@ public class ArrayExam {
 		double avg = (double)sum1/3;
 		System.out.println(avg);
 	
-		//최대값구하기
+		//최대,최소값구하기
 		int[] ary2 = { 5, 2, 7, 4, 8 };
 		int max = 0;
 		int min = ary2[0];
@@ -38,6 +38,7 @@ public class ArrayExam {
 			}
 		}
 		System.out.println("최대값"+max);	
+		System.out.println("최소값"+min);	
 		System.out.println("최소값"+min);	
 	
 	}
