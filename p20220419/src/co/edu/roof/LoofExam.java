@@ -48,14 +48,14 @@ public class LoofExam {
 		}
 
 		
-		for (int i = 5; i >= 1 && i<6; i--) {
-			for (int j = 1; j <= i; j++) {
+		for (int i = 5; i >= 1 && i<6; i--) { //i=1 :i<6;i++
+			for (int j = 1; j <= i; j++) {//j=5;j>=i;j--
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 		
-		for (int i = 1; i < 6; i++) {
+		for (int i = 0; i < 6; i++) {
 			for (int j = 5; j > 0; j--) {
 				if(i<j) {
 					System.out.print(" ");
