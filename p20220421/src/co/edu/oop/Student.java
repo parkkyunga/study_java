@@ -22,7 +22,8 @@ public class Student {
 	
 	//메소드:학생정보리스트,점수평균
 	void list() {
-		System.out.println("학번: "+this.stdNo+"| 이름: "+this.name+"| 국어점수: "+this.kor+"| 영어점수: "+this.eng+"| 수학점수: "+math);
+		System.out.println("학번: " + this.stdNo + "| 이름: " + this.name + "| 국어점수: " + this.kor + "| 영어점수: " + this.eng
+				+ "| 수학점수: " + math);
 	}
 	void avg() {
 		avg = (this.kor+this.eng+this.math)/3;
