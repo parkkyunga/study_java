@@ -12,6 +12,7 @@ public class Student {
 		
 	}
 
+	//매개변수 생성자만들기
 	
 
 
@@ -56,4 +57,6 @@ public class Student {
 	public void setMath(int math) {
 		this.math = math;
 	}
+	
+	//getinfo, getavg
 }

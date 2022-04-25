@@ -31,22 +31,22 @@ public class School {
 						
 						stdArry[i].setStdNo(stdNo);
 						System.out.println(stdNo+","+i+","+stdArry[i].getStdNo());
-				
+
+						System.out.println("이름 > ");
+						String stdName = sc.nextLine();
+						stdArry[i].setStdName(stdName);
+						System.out.println("국어 > ");
+						int kor = Integer.parseInt(sc.nextLine());
+						stdArry[i].setKor(kor);
+						System.out.println("영어 > ");
+						int eng = Integer.parseInt(sc.nextLine());
+						stdArry[i].setEng(eng);
+						System.out.println("수학 > ");
+						int math = Integer.parseInt(sc.nextLine());
+						stdArry[i].setMath(math);
 					}
 				
 					
-//					System.out.println("이름 > ");
-//					String stdName = sc.nextLine();
-//					stdArry[i].setStdName(stdName);
-//					System.out.println("국어 > ");
-//					int kor = Integer.parseInt(sc.nextLine());
-//					stdArry[i].setKor(kor);
-//					System.out.println("영어 > ");
-//					int eng = Integer.parseInt(sc.nextLine());
-//					stdArry[i].setEng(eng);
-//					System.out.println("수학 > ");
-//					int math = Integer.parseInt(sc.nextLine());
-//					stdArry[i].setMath(math);
 				
 			} else if (selectNo == 3) {
 				for(int i =0;i<stdTotal+1;i++) {

@@ -1,0 +1,33 @@
+package com.yedam.java.exam;
+
+public class Employee {
+	//필드
+	String name;
+	int salary;
+	
+	//생성자
+	public Employee(String name, int salary) {
+		super();
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	//메소드
+	public String getName() {
+		return name;
+	}
+	
+	public int getSalary() {
+		return salary;
+	}
+	
+	public void getInfomation() {
+		System.out.println("이름 : "+ this.name);
+		System.out.println("연봉 : "+ this.salary);
+	}
+	public void print() {
+		System.out.println("수퍼클래스");
+	}
+	
+}
+
