@@ -21,26 +21,26 @@ public class PortableNotebook implements Notebook, Tablet {
 
 	@Override
 	public void watchVideo() {
-		System.out.println("를 시청");
+		System.out.println(video+" 시청");
 		
 	}
 
 	@Override
 	public void useApp() {
 		mode = NOTEBOOK_MODE;
-		System.out.println("를 실행");
+		System.out.println(app+" 실행");
 		
 	}
 
 	@Override
 	public void writeDocumentaion() {
-		System.out.println("을 통해 문서를 작성");
+		System.out.println(wriDoc+" 통해 문서를 작성");
 		
 	}
 
 	@Override
 	public void searchInternet() {
-		System.out.println("를 통해 인터넷을 검색");
+		System.out.println(searchInt+" 통해 인터넷을 검색");
 		
 	}
 	

@@ -1,3 +1,4 @@
+
 package com.yedam.java.homework3;
 
 import java.util.Scanner;
