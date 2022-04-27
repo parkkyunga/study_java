@@ -12,18 +12,21 @@ public class Student {
 		
 	}
 
-	//매개변수 생성자만들기
-	
-
+	public Student(int stdNo, String stdName, int kor, int eng, int math) {
+		super();
+		this.stdNo = stdNo;
+		this.stdName = stdName;
+		this.kor = kor;
+		this.eng = eng;
+		this.math = math;
+	}
 
 	public int getStdNo() {
 		return stdNo;
 	}
-
+	
 	public void setStdNo(int stdNo) {
-		
 		this.stdNo = stdNo;
-		System.out.println(stdNo+"******************");
 	}
 
 	public String getStdName() {
@@ -57,6 +60,15 @@ public class Student {
 	public void setMath(int math) {
 		this.math = math;
 	}
+
+	public double getAvg() {
+		return (kor+eng+math)/3.0;		
+	}
 	
 	//getinfo, getavg
+	public int getInfo() {
+		System.out.println("이름 >" + stdName + "\n국어>"+kor+"\n영어>"+eng+"\n수학>"+math);
+		System.out.println("평균>" + getAvg());
+		return 1;
+	}
 }
