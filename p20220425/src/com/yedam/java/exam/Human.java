@@ -17,6 +17,6 @@ public class Human {
 
 
 	public void getInfomation() {
-		System.out.println(this.name + this.height + this.weight);
+		System.out.printf(this.name +" 키 :"+ this.height +" 몸무게 :"+ this.weight);
 	}
 }

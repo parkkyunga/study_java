@@ -1,6 +1,6 @@
 package com.yedam.java.exam;
 
-public abstract class Movie {
+public abstract  class Movie{
 	String genre;
 
 	public Movie(String genre) {
